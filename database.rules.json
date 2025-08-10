@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "locations": {
+      "$uid": {
+        ".write": "$uid === auth.uid",
+        ".read": "auth != null"
+      }
+    }
+  }
+}
